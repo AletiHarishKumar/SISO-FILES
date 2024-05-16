@@ -1,63 +1,37 @@
-/* import './Memo.css'; */
-
-.card {
-    position: relative;
-    width: 220px;
-    height: 320px;
-    background: mediumturquoise;
+.card-content {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    font-size: 25px;
-    font-weight: bold;
-    border-radius: 15px;
-    cursor: pointer;
+    text-align: center;
+    background-image: url('../src/bgimage90.png');
+    background-size: cover; /* or contain based on your preference */
+    background-position: center;
   }
   
-  .card::before,
-  .card::after {
-    position: absolute;
-    content: "";
-    width: 20%;
-    height: 20%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 25px;
-    font-weight: bold;
-    background-color: lightblue;
-    transition: all 0.5s;
+  .input-field {
+    width: 80%;
+    margin-bottom: 10px;
   }
   
-  .card::before {
-    top: 0;
-    right: 0;
-    border-radius: 0 15px 0 100%;
+  .button-container {
+    margin-top: 10px;
   }
   
-  .card::after {
-    bottom: 0;
-    left: 0;
-    border-radius: 0 100%  0 15px;
+  .memo-button {
+    background-color: green;
+    width: 300px; 
+    border-radius: 10px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 15px; 
   }
   
-  .card:hover::before,
-  .card:hover:after {
-    width: 100%;
-    height: 100%;
-    border-radius: 15px;
-    transition: all 0.5s;
+  .memo-button:hover {
+    background-color: rgba(182, 26, 174, 0.801);
   }
   
-  .card:hover:after {
-    content: "HELLO";
+  .hover-green .card-content:hover {
+    background-color: rgba(194, 78, 49, 0.493);
   }
-
-
-
-  .MemoButton button:hover{
-
-    background-color: aqua;
-    
-    }
-    
+  

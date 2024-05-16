@@ -1,0 +1,62 @@
+.form-container {
+  border: 2px solid black;
+  padding: 80px;
+  max-width: 600px;
+  margin: 80px auto; 
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+label {
+  flex: 0 0 200px; /* Adjust the width of labels as needed */
+  margin-right: 20px;
+}
+
+input[type='text'],
+select,
+input[type='number'] {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 75px;
+  margin-left: 20px;
+}
+
+.btn-warning,
+.btn-danger {
+  padding: 10px 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.btn-warning {
+  background-color:rgb(142, 187, 18);
+  color: white;
+  width: 130px;
+}
+
+.btn-danger {
+  background-color: #f44336;
+  color: white;
+  width: 130px;
+}
+
+.btn-warning:hover,
+.btn-danger:hover {
+  background-color: blue;
+
+
+  
+}

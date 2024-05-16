@@ -1,0 +1,129 @@
+/* 
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 37px;
+  margin: 8px;
+  background-color: #f0f0f0;
+  text-decoration: underline;
+}
+
+.Card-Data {
+  display: flex;
+  flex-direction: column;
+}
+
+.Card-Data>div {
+  margin-bottom: 10px;
+}
+
+.Card-Data label {
+  margin-right: 4px;
+
+}
+
+.Card-Data input,
+.Card-Data textarea {
+  width: 20%;
+  padding: 16px;
+
+  border: 2px solid #ccc;
+  margin: right 50px;
+  ;
+}
+
+.Card-Data textarea {
+  resize: vertical;
+  min-height: 10 px;
+}
+
+.Btn-S-C {
+  margin-right: 75px;
+
+}
+
+.Btn-S-C button {
+  margin-left: 20px;
+  margin-top: 142px;
+  padding: 6px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.Btn-S-C button:hover {
+  background-color: red;
+}
+
+.error-message {
+  color: rgb(98, 0, 255);
+  margin-top: 5px;
+  text-align: center;
+}
+
+
+.button {
+  margin-left: -200%;
+
+}
+
+.Form-Input-P {
+  position: relative;
+  left: 118px;
+  height: 10px;
+  padding: 200px;
+
+}
+
+.Form-Input-Dura {
+  position: relative;
+  left: 125.5px;
+  height: 10px;
+}
+
+.Form-Input-Tech {
+  position: relative;
+  left: 125px;
+  height: 10px;
+}
+
+.Form-Input-TS {
+  position: relative;
+  left: 125px;
+  height: 10px;
+
+}
+
+.Form-Input-PRD {
+  position: relative;
+  left: 125px;
+  height: 10px;
+
+}
+
+.Form-Input-URL {
+  position: relative;
+  left: 130px;
+  text-decoration: underline;
+  height: 10px;
+}
+
+
+
+.Form-Input-D {
+
+  position: relative;
+  left: 120px;
+  text-decoration: underline;
+  height: 20px;
+}
+
+.Form-Input-PD {
+
+  position: relative;
+  left: 164px;
+  text-decoration: underline;
+  height: 20px;
+} */
