@@ -1,0 +1,26 @@
+.cancel-button{
+
+    color: azure;
+    background-color: red;
+    border-radius: 50px;
+    width: 90px;
+    
+}
+.submit-button{
+  margin-left: 10px;
+  background-color: yellow;
+  padding: 5px;
+  width: 90px;
+
+ border-radius: 50px;
+  
+}
+.submit-button:hover{
+background-color: green;
+ 
+}
+
+.cancel-button:hover{
+background-color: rgb(122, 50, 205);
+
+}
